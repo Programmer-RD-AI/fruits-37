@@ -1,0 +1,34 @@
+2021-05-21 01:12:25,999 INFO    MainThread:260513 [internal.py:wandb_internal():91] W&B internal server running at pid: 260513, started at: 2021-05-21 01:12:25.999365
+2021-05-21 01:12:26,001 DEBUG   HandlerThread:260513 [handler.py:handle_request():121] handle_request: check_version
+2021-05-21 01:12:26,001 INFO    WriterThread:260513 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/run-p4kxkidv.wandb
+2021-05-21 01:12:26,003 DEBUG   SenderThread:260513 [sender.py:send():176] send: header
+2021-05-21 01:12:26,003 DEBUG   SenderThread:260513 [sender.py:send_request():186] send_request: check_version
+2021-05-21 01:12:26,581 DEBUG   SenderThread:260513 [sender.py:send():176] send: run
+2021-05-21 01:12:26,584 DEBUG   SenderThread:260513 [git.py:repo():33] git repository is invalid
+2021-05-21 01:12:27,115 INFO    SenderThread:260513 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files
+2021-05-21 01:12:27,115 INFO    SenderThread:260513 [sender.py:_start_run_threads():699] run started: p4kxkidv with start time 1621539745
+2021-05-21 01:12:27,115 DEBUG   SenderThread:260513 [sender.py:send():176] send: summary
+2021-05-21 01:12:27,115 INFO    SenderThread:260513 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-21 01:12:27,116 DEBUG   HandlerThread:260513 [handler.py:handle_request():121] handle_request: run_start
+2021-05-21 01:12:28,116 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/wandb-summary.json
+2021-05-21 01:12:28,133 DEBUG   HandlerThread:260513 [meta.py:__init__():39] meta init
+2021-05-21 01:12:28,133 DEBUG   HandlerThread:260513 [meta.py:__init__():53] meta init done
+2021-05-21 01:12:28,133 DEBUG   HandlerThread:260513 [meta.py:probe():210] probe
+2021-05-21 01:12:28,139 DEBUG   HandlerThread:260513 [git.py:repo():33] git repository is invalid
+2021-05-21 01:12:28,139 DEBUG   HandlerThread:260513 [meta.py:_save_code():89] save code
+2021-05-21 01:12:28,139 WARNING HandlerThread:260513 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-21 01:12:28,139 DEBUG   HandlerThread:260513 [meta.py:_save_pip():57] save pip
+2021-05-21 01:12:28,140 DEBUG   HandlerThread:260513 [meta.py:_save_pip():71] save pip done
+2021-05-21 01:12:28,140 DEBUG   HandlerThread:260513 [meta.py:_save_conda():78] save conda
+2021-05-21 01:12:29,119 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/conda-environment.yaml
+2021-05-21 01:12:29,119 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/requirements.txt
+2021-05-21 01:12:32,480 DEBUG   HandlerThread:260513 [meta.py:_save_conda():86] save conda done
+2021-05-21 01:12:32,480 DEBUG   HandlerThread:260513 [meta.py:probe():252] probe done
+2021-05-21 01:12:32,482 DEBUG   HandlerThread:260513 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 01:12:32,482 DEBUG   SenderThread:260513 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 01:12:33,007 DEBUG   SenderThread:260513 [sender.py:send():176] send: files
+2021-05-21 01:12:33,007 INFO    SenderThread:260513 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-21 01:12:33,120 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/conda-environment.yaml
+2021-05-21 01:12:33,120 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/output.log
+2021-05-21 01:12:33,121 INFO    Thread-8  :260513 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_011215-p4kxkidv/files/wandb-metadata.json
+2021-05-21 01:12:34,232 INFO    Thread-11 :260513 [upload_job.py:push():133] Uploaded file /tmp/tmp6_ykofe1wandb/2uequq2m-wandb-metadata.json

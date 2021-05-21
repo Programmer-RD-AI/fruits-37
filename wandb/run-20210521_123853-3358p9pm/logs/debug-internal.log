@@ -1,0 +1,147 @@
+2021-05-21 12:38:53,719 INFO    MainThread:138258 [internal.py:wandb_internal():91] W&B internal server running at pid: 138258, started at: 2021-05-21 12:38:53.718974
+2021-05-21 12:38:53,720 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: check_version
+2021-05-21 12:38:53,720 INFO    WriterThread:138258 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/run-3358p9pm.wandb
+2021-05-21 12:38:53,722 DEBUG   SenderThread:138258 [sender.py:send():176] send: header
+2021-05-21 12:38:53,722 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: check_version
+2021-05-21 12:38:54,084 DEBUG   SenderThread:138258 [sender.py:send():176] send: run
+2021-05-21 12:38:54,087 DEBUG   SenderThread:138258 [git.py:repo():33] git repository is invalid
+2021-05-21 12:38:54,537 INFO    SenderThread:138258 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files
+2021-05-21 12:38:54,537 INFO    SenderThread:138258 [sender.py:_start_run_threads():699] run started: 3358p9pm with start time 1621580933
+2021-05-21 12:38:54,537 DEBUG   SenderThread:138258 [sender.py:send():176] send: summary
+2021-05-21 12:38:54,537 INFO    SenderThread:138258 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-21 12:38:54,538 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: run_start
+2021-05-21 12:38:55,539 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/wandb-summary.json
+2021-05-21 12:38:56,273 DEBUG   HandlerThread:138258 [meta.py:__init__():39] meta init
+2021-05-21 12:38:56,274 DEBUG   HandlerThread:138258 [meta.py:__init__():53] meta init done
+2021-05-21 12:38:56,274 DEBUG   HandlerThread:138258 [meta.py:probe():210] probe
+2021-05-21 12:38:56,281 DEBUG   HandlerThread:138258 [git.py:repo():33] git repository is invalid
+2021-05-21 12:38:56,281 DEBUG   HandlerThread:138258 [meta.py:_save_code():89] save code
+2021-05-21 12:38:56,281 WARNING HandlerThread:138258 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-21 12:38:56,281 DEBUG   HandlerThread:138258 [meta.py:_save_pip():57] save pip
+2021-05-21 12:38:56,282 DEBUG   HandlerThread:138258 [meta.py:_save_pip():71] save pip done
+2021-05-21 12:38:56,282 DEBUG   HandlerThread:138258 [meta.py:_save_conda():78] save conda
+2021-05-21 12:38:56,541 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/conda-environment.yaml
+2021-05-21 12:38:56,541 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/requirements.txt
+2021-05-21 12:39:00,542 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/conda-environment.yaml
+2021-05-21 12:39:00,543 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/output.log
+2021-05-21 12:39:00,692 DEBUG   HandlerThread:138258 [meta.py:_save_conda():86] save conda done
+2021-05-21 12:39:00,692 DEBUG   HandlerThread:138258 [meta.py:probe():252] probe done
+2021-05-21 12:39:00,694 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:39:00,698 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:39:01,133 DEBUG   SenderThread:138258 [sender.py:send():176] send: files
+2021-05-21 12:39:01,133 INFO    SenderThread:138258 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-21 12:39:01,543 INFO    Thread-8  :138258 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/wandb-metadata.json
+2021-05-21 12:39:02,353 INFO    Thread-11 :138258 [upload_job.py:push():133] Uploaded file /tmp/tmpnntkpce8wandb/h0o0bzya-wandb-metadata.json
+2021-05-21 12:39:16,134 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:39:16,134 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:39:24,460 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:39:31,672 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:39:31,672 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:39:47,233 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:39:47,234 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:39:54,641 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:40:02,728 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:40:02,729 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:40:18,240 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:40:18,240 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:40:24,838 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:40:33,793 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:40:33,793 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:40:49,334 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:40:49,334 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:40:55,064 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:41:05,483 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:41:05,483 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:41:20,953 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:41:20,953 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:41:25,234 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:41:36,428 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:41:36,428 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:41:51,909 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:41:51,909 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:41:55,428 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:42:07,358 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:42:07,359 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:42:22,887 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:42:22,887 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:42:25,640 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:42:38,333 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:42:38,333 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:42:53,812 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:42:53,813 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:42:55,844 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:43:09,307 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:43:09,308 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:43:24,768 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:43:24,769 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:43:26,025 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:43:40,207 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:43:40,207 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:43:56,032 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:43:56,032 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:43:56,577 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:44:11,578 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:44:11,579 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:44:26,434 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:44:27,067 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:44:27,067 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:44:42,579 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:44:42,580 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:44:56,605 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:44:58,069 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:44:58,069 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:45:13,568 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:45:13,568 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:45:26,785 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:45:29,046 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:45:29,046 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:45:44,888 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:45:44,888 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:45:56,981 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:46:00,377 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:46:00,377 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:46:16,294 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:46:16,294 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:46:27,177 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:46:32,022 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:46:32,022 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:46:47,496 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:46:47,496 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:46:57,347 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:47:02,987 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:47:02,987 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:47:18,444 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:47:18,444 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:47:27,544 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:47:33,937 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:47:33,937 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:47:49,412 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:47:49,412 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:47:57,744 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:48:04,968 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:48:04,968 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:48:20,443 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:48:20,443 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:48:27,928 DEBUG   SenderThread:138258 [sender.py:send():176] send: stats
+2021-05-21 12:48:35,929 DEBUG   HandlerThread:138258 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-21 12:48:35,929 DEBUG   SenderThread:138258 [sender.py:send_request():186] send_request: stop_status
+2021-05-21 12:48:56,074 WARNING MainThread:138258 [internal.py:is_dead():367] Internal process exiting, parent pid 136964 disappeared
+2021-05-21 12:48:56,104 ERROR   MainThread:138258 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-05-21 12:48:56,104 INFO    HandlerThread:138258 [handler.py:finish():632] shutting down handler
+2021-05-21 12:48:57,064 INFO    WriterThread:138258 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/run-3358p9pm.wandb
+2021-05-21 12:48:57,089 INFO    SenderThread:138258 [sender.py:finish():925] shutting down sender
+2021-05-21 12:48:57,089 INFO    SenderThread:138258 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-21 12:48:58,065 INFO    SenderThread:138258 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files
+2021-05-21 12:48:58,065 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/wandb-metadata.json wandb-metadata.json
+2021-05-21 12:48:58,065 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/output.log output.log
+2021-05-21 12:48:58,065 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/conda-environment.yaml conda-environment.yaml
+2021-05-21 12:48:58,065 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/requirements.txt requirements.txt
+2021-05-21 12:48:58,066 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/wandb-summary.json wandb-summary.json
+2021-05-21 12:48:58,070 INFO    SenderThread:138258 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/config.yaml config.yaml
+2021-05-21 12:48:58,073 INFO    SenderThread:138258 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-21 12:48:58,073 INFO    SenderThread:138258 [file_pusher.py:join():181] waiting for file pusher
+2021-05-21 12:48:59,326 INFO    Thread-14 :138258 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/wandb-summary.json
+2021-05-21 12:48:59,552 INFO    Thread-15 :138258 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/config.yaml
+2021-05-21 12:48:59,552 INFO    Thread-13 :138258 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/requirements.txt
+2021-05-21 12:48:59,600 INFO    Thread-12 :138258 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Fruits-360/wandb/run-20210521_123853-3358p9pm/files/conda-environment.yaml
+2021-05-21 12:49:00,439 INFO    MainThread:138258 [internal.py:handle_exit():78] Internal process exited
